@@ -54,27 +54,27 @@ Stitching means taking all captured photos and arranging them to be a single pho
 #### Stitching Images Using GigaPan Stitch.Efx
 * Open GigaPan Stitch.Efx.
 * Click **Add Images** and browse the images taken by the GigaPan EPIC Pro robot and select one or more images to add your panorama, then click **Open**. <br><br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_01.jpg)<br><br>
+![Markdown Here logo](/images/3-b-ii/gigapan_stitch_01.jpg)<br><br>
 * Adjust **Number of Rows** for stitching images and click **Save** selection and Stitch button.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The image below has not selected the appropriate **Number of Rows**.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_02.jpg)<br><br>
+![Markdown Here logo](https://github.com/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_02.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The appropriate **Number of Rows** is selected.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_03.jpg)<br><br>
+![Markdown Here logo](/images/3-b-ii/gigapan_stitch_03.jpg)<br><br>
 * Type the file name and click *Save* button.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_04.jpg)<br><br>
+![Markdown Here logo](images/3-b-ii/gigapan_stitch_04.jpg)<br><br>
 * After stitching is completed, click the **OK** button at the bottom of **Stitching done** popup window.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_05.jpg)<br><br>
+![Markdown Here logo](images/3-b-ii/gigapan_stitch_05.jpg)<br><br>
 
 #### Exporting a Panorama Image
 * Click **File** and select **Export** stitched image to, and then select **TIFF** or **RAW** image file format.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_06.jpg)<br><br>
+![Markdown Here logo](images/3-b-ii/gigapan_stitch_06.jpg)<br><br>
 
 #### Uploading Panorama Image to Gigapan.com
 * Visit [*Gigapan.com*](http://gigapan.com/) and create log in ID if you don't have one.
 * Click **Upload** tab or **Upload** button.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_07.jpg)<br><br>
+![Markdown Here logo](/images/3-b-ii/gigapan_stitch_07.jpg)<br><br>
 * Fill in the fields and clock Upload now. The Gigapan image storage server will store your uploaded panorama image in 2D format.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_08.jpg)<br><br>
+![Markdown Here logo](/images/3-b-ii/gigapan_stitch_08.jpg)<br><br>
 
 ### Protocol for Autopano Giga 3.0
 
@@ -89,17 +89,17 @@ Stitching means taking all captured photos and arranging them to be a single pho
 #### Creating Equirectangular Panorama
 * Open Autopano Giga 3.0 *[C:\Program Files\Kolor\Autopano Giga 3.0]*.
 * The Gigapan Interface toolbar is located at the top of the Autopano interface. On the interface toolbar click **Edit** and **Settings…**<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_01.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_01.jpg)<br><br>
 * Changes in the settings will be applied to all newly created projects. In the general settings window, Click **Panorama**. In the **Projection and crop** section select **Default projection:** Spherical and **Default crop:** Maximum projection range. Click **Ok**, and then close the settings window.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_02.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_02.jpg)<br><br>
 * On the interface toolbar click **File** and then select **Import**.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_03.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_03.jpg)<br><br>
 * Click **GigaPan** module and then click **Next**.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_04.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_04.jpg)<br><br>
 * The Gigapan import module enables importing shots created with a Gigapan motorized panoramic head. On the **General** tab, go to the **Images** section and click the **…** button.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_05.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_05.jpg)<br><br>
 * Browse the file where your images captured by GigaPan EPIC Pro and select one or more images for creating a panorama, and then click **Open**.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_06.jpg)<br><br>
+![Markdown Here logo](/IVE_workshop/blob/master/images/3-b-iii/autopano_06.jpg)<br><br>
 * Autopano Giga normally adjusts the images’ rows and columns automatically. However, if for any reason the program does not adjust the rows and columns, you will need to adjust it manually. The number of rows and columns are associated with each other. The correct number of rows and columns can be found using GigaPan Stitch.Efx. The **Preview** section in the General tab settings enables visualization of the shooting. The preview alters according to the number of rows and columns. Reviews the final image to define imported images are placed in appropriate rows and columns.<br><br>
 ![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_07.jpg)<br><br>
 * On the import module, click on the **Shoot layout** tab. This tab enables the selecting the arrangement corresponding to the taken photos. Normally the Column (default) option is the most suitable option for images. Otherwise, make any necessary changes for your panorama. **DO NOT** click the **Finish** button yet.<br><br>
