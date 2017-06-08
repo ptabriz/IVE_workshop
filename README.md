@@ -1,4 +1,4 @@
-# 3. Preparing IVE Scenes
+﻿# 3. Preparing IVE Scenes
 
 ### Table of Contents
 
@@ -101,30 +101,30 @@ Stitching means taking all captured photos and arranging them to be a single pho
 * Browse the file where your images captured by GigaPan EPIC Pro and select one or more images for creating a panorama, and then click **Open**.<br><br>
 ![Markdown Here logo](/IVE_workshop/blob/master/images/3-b-iii/autopano_06.jpg)<br><br>
 * Autopano Giga normally adjusts the images’ rows and columns automatically. However, if for any reason the program does not adjust the rows and columns, you will need to adjust it manually. The number of rows and columns are associated with each other. The correct number of rows and columns can be found using GigaPan Stitch.Efx. The **Preview** section in the General tab settings enables visualization of the shooting. The preview alters according to the number of rows and columns. Reviews the final image to define imported images are placed in appropriate rows and columns.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_07.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_07.jpg)<br><br>
 * On the import module, click on the **Shoot layout** tab. This tab enables the selecting the arrangement corresponding to the taken photos. Normally the Column (default) option is the most suitable option for images. Otherwise, make any necessary changes for your panorama. **DO NOT** click the **Finish** button yet.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_08.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_08.jpg)<br><br>
 * Next, on the import module Click **Shoot setup** tab. Check the **Force 360° panorama** check box.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_09.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_09.jpg)<br><br>
 * On the import module, click the **Stack** tab. On the **Detect Links in:** select **The reference level**. This option looks for the probability of links between images with the same bracket level. At the **For a stack:** option click **Detect control points**. This preference applies control points as reference for overlaying dissimilar images of the same stack. Make any necessary changes to your panorama.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_10.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_10.jpg)<br><br>
 * Next, on the import module, click the **Detection** tab. The image below shows the default setting on the **Auto detection** option. This option enables the automatic launch of the detection after confirming the module’s settings. Make any necessary changes for your panorama, and click **Finish**.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_11.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_11.jpg)<br><br>
 * Wait until Keypoint matching is finished. Waiting time may vary by number and size of images. After completing Keypoint matching, you will see the preview of your panorama image in the panorama window group, located at the right of the main window.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_12.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_12.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The Panorama window also describes the technical specifications of the resulting image in the Panorama Information section. In this frame make sure **FOV** (Field of View) settings to be 360.00 X 180.00, and the projection mode adjusted to the **Spherical** projection option.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_13.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_13.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The panorama interface toolbar offers access functions such as Panorama editor, rendering, and saving the project. If you require checking the stitching quality of the panorama image, click the **Edit** button. The panorama editor interface window will open. The Information window is located at the left side of the window, which displays the **Stitching quality** of the panorama. In general, RMS lower that 5 is considered as a Good quality link. See [*here.*] (http://www.kolor.com/wiki-en/action/view/Autopano_Giga_-_Panorama_Editor_-_Control_Points_Editor?action=view&title=Autopano_Giga_-_Panorama_Editor_-_Control_Points_Editor) If you require editing your panorama, see **Editing your panorama** section.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_14.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_14.jpg)<br><br>
 * At the Panorama window click **Render**. This button initiates the Rendering launcher window that enables you to export your panorama.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_15.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_15.jpg)<br><br>
 * In the Rendering window choose the output parameters and make any necessary changes for the Render settings. In the case of this example, **Output** size is minimized to 10% of full size panorama. It is strongly recommended resizing if your panorama size is large.
 In the case of this example, Output size is minimized to 10% of full size panorama. It is strongly recommended resizing if your panorama size is large. Do you need to Photoshop your panorama image? Keep your panorama pixel dimension smaller than 300,000 x 300,000. Photoshop does not support over 300,000 x 300,000 pixels per image.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_16.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_16.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;At the Rendering window click **Render** so that the Batch render window will be launched. Wait until rendering is completed. The output image will be saved and located in the defined output file modifications of the Rendering window.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_17.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_17.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Find Equirectangular panorama in your files.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_18.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_18.jpg)<br><br>
 
 #### Editing Your Panorama
 * Learn how to edit the panorama:<br>
@@ -132,13 +132,13 @@ In the case of this example, Output size is minimized to 10% of full size panora
 &nbsp;&nbsp;&nbsp;&nbsp;Watch using the control points video tutorial [*here.*](https://www.youtube.com/v/K26Ki4hYqQg?version=3&hl=fr_FR)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Find Autopano Giga Documentation [*here.*](http://www.kolor.com/wiki-en/action/view/Autopano_Giga_2.5_Documentation?action=view&title=Autopano_Giga_2.5_Documentation)<br>
 * In the main panorama window toolbar click **Edit**. The panorama editor window will open. This window enables shape, color, and crop correction of the panorama.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_19.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_19.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;It will open a new window.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_20.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_20.jpg)<br><br>
 * At the panorama editor window toolbar click **Ctrl points editor**. This options allows manual correction of links and control points to acquire an ideal placement of images. The active control point editor interface opens windows: **The Panorama Editor** window, and **The Control Points Editor** window.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_21.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_21.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The Panorama Editor window displays a mesh that demonstrates the links between images and their quality. The mesh enables selecting images and links. The Control points editing area has 2 windows where two selected images from the list can be observed and edited with the available tools.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_22.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_22.jpg)<br><br>
 * Edit panorama as needed. For editing, please refer the Autopano Giga Documentation and tutorial videos, to which you can find web links in step 1 above. 
 
 #### Saving Your Panorama
@@ -153,9 +153,9 @@ In the case of this example, Output size is minimized to 10% of full size panora
 #### Common stitching problem using Autopano Giga
 * Stitched panoramas potentially have black spots where stitching was not successful, as shown in Example image 1. This is caused by either/both insufficient overlap images and/or control points for stitching images (see Example image 2). This black spot oftentimes appears on the sky as shown below image.  It is due to not having enough control points for stitching.  In this case, you will need to modify image using photo editing software such as Photoshop.  Note that it seems this problem does not apply for using GigaPan Stitch.Efx. GigaPan stitich.Efx applies a Mercator projection instead of a spherical/Equirectangular projection.<br><br> 
 &nbsp;&nbsp;&nbsp;&nbsp; **Example image 1:** Black spots in the panorama.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_23.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_23.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp; **Example image 2:** No control points on the sky in panorama.<br><br>
-![Markdown Here logo](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iii/autopano_24.jpg)<br><br>
+![Markdown Here logo](/images/3-b-iii/autopano_24.jpg)<br><br>
 
 ### Autopano Video
 
@@ -172,65 +172,65 @@ In the case of this example, Output size is minimized to 10% of full size panora
 #### Preparing and Synchronizing
 When shooting the video, try avoiding putting your interesting content outside the overlapping areas. There are two different ways for synchronization: Audio or Motion. For Audio synchronization make a **clap** or click the **clicker** when cameras are recording. For Motion synchronization turn the rig around its center, not too fast, while holding it with arms or tripod. You can import your videos in two different ways: manually or using the wizard import. Place all your associated videos in the same folder. 
 * From the main menu select **File: Import videos**. Simultaneously select the six videos that you want them to be stitched. One other method is selecting and dragging your six videos in the Autopano video page, in the **Input videos** windows: **Drag’n’drop videos here**.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_01.png)<br><br>
+![](/images/3-b-iv/autopano_v_01.png)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Now you can see all six videos in the **Input videos** window.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_02.png)<br><br>
+![](/images/3-b-iv/autopano_v_02.png)<br><br>
 * The video stitching is based on stitching images in a precise moment in different videos. Below the **Input video** window there is the main timeline tool that can identify the appropriate instant for synchronization. Click the play button. You can simultaneously play the videos and identify a certain moment appropriate for synchronization. A clap sync or loud sound at the beginning of each video shot helps find the same wave form in each of the 6 cameras.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_03.png)<br><br>
+![](/images/3-b-iv/autopano_v_03.png)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;When that point is identified, click pause. Now click the other button next to the play. This process will identify your synching moment in the video.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_04.png)<br><br>
+![](/images/3-b-iv/autopano_v_04.png)<br><br>
 * Then click the **Synchronization** under the videos. In the synchronization window set the **Maximum search range** to a larger value than the time required to start all the cameras. Then click **Use audio to synchronize**. When synchronization is done it shows **Accurate synchronization found**, if not try to recalculate the synchronization at a different instant. When synching has been finished click **Apply**, and then **Ok**. The Synchronization menu will be automatically closed.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_05.png)<br><br>
+![](/images/3-b-iv/autopano_v_05.png)<br><br>
 * After this step, choose a moment in the timeline that represents the best for the video as a whole. Avoid choosing moments when you are passing a door, or moving. If you choose such moments, the reference stitching will have parallax problems associated with this precise position. Once the videos have been synchronized click the **Stitch as…** button to create a reference panorama using the stills from the current moment in the timeline. If you have used the HERO3 cameras, choose the Stitch as **GO Pro**. Wait until the program has processed the stitching, regarding the process status at the bottom of the page. The still images are generated as .TIFF and extracted in your video folder.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_06.png)<br><br>
+![](/images/3-b-iv/autopano_v_06.png)<br><br>
 * Now you will notice a small thumbnail at the **Reference Panoramas** menu. Every time you stitch with a different setting, a new reference panorama is created. When you click at this reference, you can see the **Real-time preview** image at the right side of the page.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_07.png)<br><br>
+![](/images/3-b-iv/autopano_v_07.png)<br><br>
 
 #### Editing a Reference Panorama for Video Stitching
 * At the Reference Panoramas menu click **Edit** for switching into Autopano.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_08.png)<br><br>
+![](/images/3-b-iv/autopano_v_08.png)<br><br>
 * Through clicking the **Edit** button in the Autopano page, a new page will open. Use Autopano for editing the colors, links, projection, or blending presents. Review [*this*](http://www.kolor.com/wiki-en/action/view/Autopano_Video_-_How_to_fix_the_foreground?action=view&title=Autopano_Video_-_How_to_fix_the_foreground) tutorial about improving automatic stitching with Autopano Video. Through editing and modifying this image, the still image associated with the video is modified. Check the links between images and adjust them if not correct. At the top of the page click **Edit Points** to open the **CP editor** page.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_09.png)<br><br>
+![](/images/3-b-iv/autopano_v_09.png)<br><br>
 * At the left corner of the CP editor page you can observe how each of the six images is stitched with other images. When you go to the **Link** menu, click a link instance. Now you can observe how two images are linked within an **automatic** stitching process. At this level, some images may not have any other images linked to them. It is best to link each image to at least 3 to 4 other images.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_10.png)<br><br>
+![](/images/3-b-iv/autopano_v_10.png)<br><br>
 * To modify and link images, click on an image. While holding the **ctrl** key, click on another image that has similar points to be linked.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_11.png)<br><br>
+![](/images/3-b-iv/autopano_v_11.png)<br><br>
 * At the top menu, click the **Add auto control points** button. This tool locates automatic points based on two manually selected areas that you think they are matched.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_12.png)<br><br>
+![](/images/3-b-iv/autopano_v_12.png)<br><br>
 * Select the matching area at the left image.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_13.png)<br><br>
+![](/images/3-b-iv/autopano_v_13.png)<br><br>
 * Now select the matching area within the right image.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_14.png)<br><br>
+![](/images/3-b-iv/autopano_v_14.png)<br><br>
 * You will notice that the program will automatically create linking points based on the selected areas. Also, at the left corner of the CP editor, there is a new line showing the two images are linked.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_15.png)<br><br>
+![](/images/3-b-iv/autopano_v_15.png)<br><br>
 * Repeat these steps until you have linked at least three images to each image.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_16.png)<br><br>
+![](/images/3-b-iv/autopano_v_16.png)<br><br>
 * Now that you have defined links for your images, go to the main menu of the CP editor and click **Optimization Settings**.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_17.png)<br><br>
+![](/images/3-b-iv/autopano_v_17.png)<br><br>
 * From the optimization presents menu select **Strong**. Then for **Focal calculation** select **Force identic**, for **Distortion calculation** select **Force different**, and for **Distortion model** choose **3rd order + optical axis center**. Then click **OK**.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_18.png)<br><br>
+![](/images/3-b-iv/autopano_v_18.png)<br><br>
 * At the main menu of CP editor click **Optimize panorama**.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_19.png)<br><br>
+![](/images/3-b-iv/autopano_v_19.png)<br><br>
 * After this process has been completed, check the original pano image (the page where you clicked the point editor). You can notice the panorama has been modified. At this example, you notice that there needs to be some more linkage between the images to make the pano more accurate. Go back to your **points editor** menu again and try to create more linkage.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_20.png)<br><br>
+![](/images/3-b-iv/autopano_v_20.png)<br><br>
 * At the main menu of the pano editor click **Move**. At the left side you see you can either move or rotate the pano or each of the six images.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_21.png)<br><br>
+![](/images/3-b-iv/autopano_v_21.png)<br><br>
 * This panel allows manual moving or rotating each of the images for a better configuration.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_22.png)<br><br>
+![](/images/3-b-iv/autopano_v_22.png)<br><br>
 * When you are satisfied with your stitching, save your .pano file. Click **Save** at the **Files** menu. This file can be reused as a reference in your film.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_23.png)<br><br>
+![](/images/3-b-iv/autopano_v_23.png)<br><br>
 
 #### Rendering and Publishing 360° Videos
 * Switch to the Autopano video to validate your reference panorama at different instants. If it requires more modifications click the **Edit** button and apply necessary changes. At the bottom of the Realtime preview, click **Render**.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_24.png)<br><br>
+![](/images/3-b-iv/autopano_v_24.png)<br><br>
 * The **Render** panel will open. By default, the rendered video is saved as an mp4 file with up to 4K resolution. In the Render settings, you can select the video quality of your final video. Set the file destination or name.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_25.png)<br><br>
+![](/images/3-b-iv/autopano_v_25.png)<br><br>
 * Switch to the **Panorama** tab. In the Blending presets you can select **Smooth** for fast moving content. Use the **Sharp mask** for slow moving content.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_26.png)<br><br>
+![](/images/3-b-iv/autopano_v_26.png)<br><br>
 * Download the Kolor Eyes for Desktop from [*here.*] (http://www.kolor.com/kolor-eyes/#desktop) This application enables you to play your 360 videos at full resolution. Drag your final rendered video inside the Kolor page.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_27.png)<br><br>
+![](/images/3-b-iv/autopano_v_27.png)<br><br>
 * Now, you can move, zoom, and explore your 360° degree video in the Kolor Eyes program.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/3-b-iv/autopano_v_28.png)<br><br>
+![](/images/3-b-iv/autopano_v_28.png)<br><br>
 
 ## Manipulation
 
@@ -240,37 +240,37 @@ In this section, we learn how to manipulate objects to the equirectangular image
 
 #### Basics
 * **Open** the [*equirectangular*] (Manipulation_Participants.psd) image in Adobe Photoshop CS.
-* **Open** the [*reference grid file*] (https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Reference.png) and overlay it on the base image. Make sure that the grid is perfectly aligned with the base image. Let us name this layer **_perspective grid_**.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_1.jpg)<br><br>
+* **Open** the [*reference grid file*] (/images/Manipulation/Reference.png) and overlay it on the base image. Make sure that the grid is perfectly aligned with the base image. Let us name this layer **_perspective grid_**.<br><br>
+![](/images/Manipulation/Figure_1.jpg)<br><br>
 * To separate the sky from the content for an easier manipulation, **Select** the sky (e.g. using the magic wand) and create a new layer (call it Sky). Then, turn off this layer. Note that advanced users may skip this step or use alternative strategies (e.g. masking).<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_2.jpg)<br><br>
+![](/images/Manipulation/Figure_2.jpg)<br><br>
 
 #### Adding a Building
 * **Open** the [*buildings file*] (buildings.psd), bring in the Dome layer into the scene, and make sure that the dome is ordered behind all layers. 
 * Check if the dome is on the left side between the bricked and glass façade buildings.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_3.jpg)<br><br>
+![](/images/Manipulation/Figure_3.jpg)<br><br>
 * **Turn on** the reference grid, and **select** the dome layer.  
 * **Transform** the dome using warp to align the building’s horizontal elements with the corresponding grid line. Make Sky layer visible.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_4.jpg)<br><br>
-* In the next step, we will use a [*plan*] (https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/plan.jpg)  related to tentative landscape design for the plaza to use as a reference for manipulation. For drawing the plan information in the equirectangular image, we first need to locate the approximate location of each greenery patch based on the corresponding pavements and/or street grids. Then, we should transform the geometry of a realistic representation of desired patches by following the extension lines of the reference grid. Note that the grid overlaid on the plan only projects the approximate shape of patches and the location of each feature needs to be determined by referring to the plan. 
+![](/images/Manipulation/Figure_4.jpg)<br><br>
+* In the next step, we will use a [*plan*] (/images/Manipulation/plan.jpg)  related to tentative landscape design for the plaza to use as a reference for manipulation. For drawing the plan information in the equirectangular image, we first need to locate the approximate location of each greenery patch based on the corresponding pavements and/or street grids. Then, we should transform the geometry of a realistic representation of desired patches by following the extension lines of the reference grid. Note that the grid overlaid on the plan only projects the approximate shape of patches and the location of each feature needs to be determined by referring to the plan. 
 
 #### Adding Greenery
 * Expand the **_Grass_** group, find the layer **_Sample_Grass_** and make the layer visible. Make sure that the reference grid is still visible and is on top of all layers.  
 * Let’s start by drawing the patch **A** indicated in the design plan by moving the sample grass to the corresponding location. Reference grid can guide you to approximate the location.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_5.jpg)<br><br>
+![](/images/Manipulation/Figure_5.jpg)<br><br>
 * Transform the layer until it matches the corresponding location. The warp and distort are suitable tools for transforming the layers. <br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_6.jpg)<br><br>
+![](/images/Manipulation/Figure_6.jpg)<br><br>
 * Repeat the procedure for patch **B**. Patch B is farther from the observer compared to patch A, so before transformation, the sample grass should be scaled down to generate a finer grass texture.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_7.jpg)<br><br>
-* Repeat the procedure for the rest of the patches. You can verify your manipulation accuracy by turning on the pre-made grass patches available in the grass group (eg. Grass_C, Grass_D). Once all the patches are transferred from the patches, turn of the reference grid. The final product should be similar to this [*image.*](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_8.jpg)
+![](/images/Manipulation/Figure_7.jpg)<br><br>
+* Repeat the procedure for the rest of the patches. You can verify your manipulation accuracy by turning on the pre-made grass patches available in the grass group (eg. Grass_C, Grass_D). Once all the patches are transferred from the patches, turn of the reference grid. The final product should be similar to this [*image.*](/images/Manipulation/Figure_8.jpg)
 
 #### Adding Trees
 * Now let’s plant the trees based on your preferred arrangement. The horizontal lines above the ground should be utilized to estimate the height of trees as they get farther from the observer point. For instance, tree A and L are the same height. Tree A is erected 6 modules above the surface and the horizontal line that intersects the peak, also intersects with the tree L’s peak.<br><br>
-![](https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_9.jpg)
-* The final product could be similar to this [*image.*] (https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_10.jpg)
+![](/images/Manipulation/Figure_9.jpg)
+* The final product could be similar to this [*image.*] (/images/Manipulation/Figure_10.jpg)
 
 #### Adding Other Decorations (People, shrubs, and benches)
-* Similar workflow applies for people, shrubs, and the furniture. Some cutouts of people (people_1, 2, 3), shrubs (Shrub_1, 2) and sample benches (Bench_C and Bench K) are included in the Photoshop file.  You will note that the benches don’t align with the reference grid, unless they are placed in specific locations that exactly match their orientation. This limitation applies to most of the object that their perceived geometry changes based on their orientation. A sample of the finished manipulation is shown [*here.*] (https://github.ncsu.edu/ptabriz/IVE_workshop/blob/master/images/Manipulation/Figure_11.jpg) 
+* Similar workflow applies for people, shrubs, and the furniture. Some cutouts of people (people_1, 2, 3), shrubs (Shrub_1, 2) and sample benches (Bench_C and Bench K) are included in the Photoshop file.  You will note that the benches don’t align with the reference grid, unless they are placed in specific locations that exactly match their orientation. This limitation applies to most of the object that their perceived geometry changes based on their orientation. A sample of the finished manipulation is shown [*here.*] (/images/Manipulation/Figure_11.jpg) 
 
 
 
