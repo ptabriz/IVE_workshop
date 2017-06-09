@@ -232,6 +232,46 @@ When shooting the video, try avoiding putting your interesting content outside t
 * Now, you can move, zoom, and explore your 360° degree video in the Kolor Eyes program.<br><br>
 ![](/images/3-b-iv/autopano_v_28.png)<br><br>
 
+## Cube mapping
+**Cube Mapping and Cube Wrapping**
+First, we need to know what is equirectangular projection. This method projects lines of longitude to vertical lines and circles of latitude to horizontal lines. A standard world map is a good example of equirectangular projection which maps a sphere onto orthogonal coordinates. Cube mapping or cube map projection is another way of mapping that uses cube’s six faces as the map shape. In this method, each square side of the cube represents part of the projected environment. Cube maps are easy to project and their pixels are well-distributed.  
+
+**Protocol for Pano2VR:**
+**Getting Started**
+
+  Pano2VR is an application to convert spherical or cylindrical panoramic images into Adobe Flash 10, HTML5 (WebGL/iPhone/iPad), or QuickTime VR (QTVR) with feature such as customizable skins, multiresolution (gigapixel panoramas), hotspots and directional sound) --- Pano2VR
+  	More information about Pano2VR at: 
+http://gardengnomesoftware.com/pano2vr.php
+  Documentations are available at: 
+    http://gardengnomesoftware.com/wiki/Main_Page
+  Watch tutorials at:
+    http://gardengnomesoftware.com/tutorial.php
+
+**Creating six cube images from equirectangular panorama:**
+
+ 1. Open Pano2VR 4.5.1 – 64bit program.
+ 2. Click Select Input.<br><br>
+![](/images/3-c/3-c-i/pano2vr_01.jpg)<br><br>
+3. In the Input window, select input eye to Equirectangular, then click Open. Browse your Equirectangular panorama and click OK.<br><br>
+![](/images/3-c/3-c-i/pano2vr_02.jpg)<br><br>
+4.	Click Convert Input.<br><br>
+![](/images/3-c/3-c-i/pano2vr_03.jpg)<br><br>
+5.	In the Convert Panorama dialog box, adjust the Format settings as shown below. The Cube Face Size setting can be varied depending upon your method of display. For showing images via the Oculus HMD (DK1 and DK2), 1024 should be sufficient. As a rule, it is generally better to use a smaller size. Click Select button to select output file location and output file name. Finally, click Convert button.<br><br>
+![](/images/3-c/3-c-i/pano2vr_04.png)<br><br>
+6.	Find your six cube face images.<br><br>
+![](/images/3-c/3-c-i/pano2vr_05.png)<br><br>
+Example six cube face images.<br><br>
+![](/images/3-c/3-c-i/pano2vr_06.png)<br><br>
+
+Optional steps if going on to create VEs for viewing in the Oculus HMD:
+
+You will have to rename the image files for them to be read by the Python code. Rename the files following the pattern below.<br><br>
+![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
+The resulting file names should look like this:<br><br>
+![](/images/3-c/3-c-i/pano2vr_08.png)<br><br>
+Now you can place the 6 cube face image files into the Cube face folder described in the documentation for our applications: (http://cascades.cnr.ncsu.edu/smith_lab/ive_apps.html)
+
+
 ## Manipulation
 
 In this section, we learn how to manipulate objects to the equirectangular image.
