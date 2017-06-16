@@ -37,11 +37,8 @@
 ### Physical Setup
 
 * Equipment to pack
-
 1)	Tripod and carrying case.
-
 2)	GigaPan EPIC Pro, connecting cable, and backpack. Make sure the battery in the GigaPan and the extra battery are charged
-
 3)	Canon DSLR and backpack. Pack an extra SD card and make sure the battery in the camera and the backup battery are full.
 
 * Gigapan Epic Pro Parts
@@ -49,107 +46,63 @@
 1)	EPIC Pro Body:
 
 Camera Rail 
-
 Rail Adjustment Knob 
-
 Camera Mounting Platform 
-
 Camera Mounting Plate 
-
 Camera Mounting Plate Lever 
-
 Navigation panel 
-
 Tripod Mount 
-
 Battery Chamber 
 
 2)	Navigation Panel:
 
 LCD Display
-
 Cancel Button
-
 Power/OK Button
-
 Trigger cable port 
-
 Remote trigger port 
-
 Battery port
 
 * Setup the Gigapan Epic Pro
-
 1)	Set up the tripod.
-
 2)	Unpack the Epic Pro.
-
 3)	Slide the Epic Pro into the tripod’s mount and wait for the click to ensure that it’s all the way in.
-
 4)	Tighten the screw on the right side of the tripod to lock the Epic Pro in.
-
 5)	Use the bubble level to center and level the EPIC Pro. Adjust the tripod legs and mount.
-
 6)	Press and hold the power button on the Epic Pro until it powers on.
-
 7)	Press the down button until you can highlight the Move Camera option, press OK.
-
 8)	Hold the down button until the camera rail is level or angled up slightly.
-
 9)	Rotate the locking pin to the unlocked position (parallel with the camera rail).
-
 10)	Place the camera in the mount and rotate the locking pin to the locked position.
-
 11)	Make sure the small silver pin is also locked.
-
 12)	Connect the cable between the camera and the Epic Pro.
 
 * Setup your camera
 
 1)	Make sure the Epic Pro is on.
-
 2)	Scroll down and highlight Camera Setup, select OK.
-
 3)	Select Set.
-
 4)	Align the horizon with the top of the camera screen (using the viewfinder) at the prompt.
-
 5)	Align the horizon with the bottom of the camera screen (again with the viewfinder) at the next prompt.
-
 6)	The camera Field of View (FOV) should be around 40°.
-
 7)	Power on the camera.
-
 8)	Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
-
 9)	Ensure that the stabilizer is ON. This setting is on the left side of the lens.
-
 10)	Ensure that the auto-focus is ON. This setting is also on the left side of the lens, just above the stabilizer switch.
-
 11)	Ensure that the zoom is locked in all the way. The lock is D-shaped and is located on the right side of the lens.
-
 12)	To set the correct exposure settings, press the menu button on the back of the camera and scroll to the second camera settings box (red box). Scroll down to the White balance setting and select either Daylight, Shade, or Cloudy according to the current conditions. Select SET. Press the MENU button again to exit out of the menu screen.
 
 ###	Image Capture
 
 1)	Take a picture of your hand or something noticeable to indicate the beginning of a new panorama.
-
 2)	On the Epic Pro display, scroll down and highlight 360 Panorama.
-
 3)	When prompted to Set camera’s zoom, select OK.
-
 4)	When prompted to move the camera to the top of the image, use the Epic Pro controls to move the camera to the top of the panorama. This is about 60° on the wheels on either side of the Epic Pro’s arms. Press OK.
-
 5)	Next, Use the Epic Pro controls to move the camera to the bottom of the panorama. This is about -60°. Press OK.
-
 6)	When prompted to Show panorama, select NO.
-
 7)	When prompted to Start panorama, select OK.
-
 8)	It should take about 40 to 54 photos.
-
 9)	Ensure that the camera takes EVERY photo as the Epic Pro pans it around. If it skips one, then one of the camera’s settings are off and you’ll need to start over.
-
 10)	Finally, once the camera has taken all of the photos, take another picture of your hand or something noticeable to indicate the end of the panorama.
 
 
