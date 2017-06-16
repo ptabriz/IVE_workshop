@@ -260,15 +260,11 @@ http://gardengnomesoftware.com/pano2vr.php
 ![](/images/3-c/3-c-i/pano2vr_04.png)<br><br>
 6.	Find your six cube face images.<br><br>
 ![](/images/3-c/3-c-i/pano2vr_05.png)<br><br>
-Example six cube face images.<br><br>
-![](/images/3-c/3-c-i/pano2vr_06.png)<br><br>
 
 Optional steps if going on to create VEs for viewing in the Oculus HMD:
 
 You will have to rename the image files for them to be read by the Python code. Rename the files following the pattern below.<br><br>
 ![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
-The resulting file names should look like this:<br><br>
-![](/images/3-c/3-c-i/pano2vr_08.png)<br><br>
 Now you can place the 6 cube face image files into a new folder, name the folder: " ENV ". Be sure to place the ENV folder in the same location as IVE_template.py
 
 Example file locations<br><br>
