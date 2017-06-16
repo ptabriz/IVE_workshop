@@ -46,21 +46,33 @@
 1)	EPIC Pro Body:
 
 Camera Rail 
+
 Rail Adjustment Knob 
+
 Camera Mounting Platform 
+
 Camera Mounting Plate 
+
 Camera Mounting Plate Lever 
+
 Navigation panel 
+
 Tripod Mount 
+
 Battery Chamber 
 
 2)	Navigation Panel:
 
 LCD Display
+
 Cancel Button
+
 Power/OK Button
+
 Trigger cable port 
+
 Remote trigger port 
+
 Battery port
 
 * Setup the Gigapan Epic Pro
