@@ -2,9 +2,14 @@
 
 ### Table of Contents
 
-**[Introduction](#introduction)** 
-**[Panorama Acquisition](#panorama-acquisition)**  
-**[Stitching](#stitiching)**  
+**[Introduction](#introduction)**
+
+**[Panorama Acquisition](#panorama-acquisition)**
+
+[Image Capture](#image-capture)
+
+**[Stitching](#stitching)** 
+
 &nbsp;&nbsp;&nbsp;&nbsp;[Stitching Methods](#stitching-methods)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Protocol for GigaPan Stitch](#protocol-for-gigapan-stitch)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Getting Started](#getting-started)*<br>
@@ -22,8 +27,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Preparing and Synchronizing](#preparing-and-synchronizing)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Editing a Reference Panorama for Video Stitching](#editing-a-reference-panorama-for-video-stitching)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Rendering and Publishing 360° Videos](#rendering-and-publishing-360-videos)*<br>
+
 **[Cube Mapping](#cube_mapping)**  
+
 **[Manipulation](#manipulation)**  
+
 &nbsp;&nbsp;&nbsp;&nbsp;[Methods of image manipulation for IVE using Adobe Photoshop CS](#method-of-image-manipulation-for-ive-using-adobe-photoshop-cs)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Basics](#basics)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding a Building](#adding-a-building)*<br>
