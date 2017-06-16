@@ -269,8 +269,13 @@ You will have to rename the image files for them to be read by the Python code. 
 ![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
 The resulting file names should look like this:<br><br>
 ![](/images/3-c/3-c-i/pano2vr_08.png)<br><br>
-Now you can place the 6 cube face image files into the Cube face folder described in the documentation for our applications: 
-https://raw.githubusercontent.com/downloads/ptabriz/IVE_workshop/IVE_template.py
+Now you can place the 6 cube face image files into a new folder, name the folder: " ENV ". Be sure to place the ENV folder in the same location as IVE_template.py
+
+Example file locations<br><br>
+![](/images/3-c/3-c-i/Vizard_01.png)<br><br>
+
+
+https://github.com/ptabriz/IVE_workshop/blob/master/IVE_template.py
 
 ## Manipulation
 
