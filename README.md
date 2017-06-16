@@ -32,7 +32,6 @@
 **[Cube Mapping](#cube_mapping)**  
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[Protocol for Pano2VR:](#Protocol-for-Pano2VR:)<br>
 
 **[Manipulation](#manipulation)**  
 &nbsp;&nbsp;&nbsp;&nbsp;[Methods of image manipulation for IVE using Adobe Photoshop CS](#method-of-image-manipulation-for-ive-using-adobe-photoshop-cs)  
