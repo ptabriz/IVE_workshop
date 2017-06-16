@@ -6,8 +6,8 @@
 
 **[Panorama Acquisition](#panorama-acquisition)**
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)
-&nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)
+&nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)<br>
 
 **[Stitching](#stitching)** 
 
@@ -31,11 +31,10 @@
 
 **[Cube Mapping](#cube_mapping)**  
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)
-&nbsp;&nbsp;&nbsp;&nbsp;[Protocol for Pano2VR:](#protocol-for-pano2vr:)
+&nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Protocol for Pano2VR:](#Protocol-for-Pano2VR:)<br>
 
 **[Manipulation](#manipulation)**  
-
 &nbsp;&nbsp;&nbsp;&nbsp;[Methods of image manipulation for IVE using Adobe Photoshop CS](#method-of-image-manipulation-for-ive-using-adobe-photoshop-cs)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Basics](#basics)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding a Building](#adding-a-building)*<br>
