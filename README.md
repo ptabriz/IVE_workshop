@@ -6,7 +6,8 @@
 
 **[Panorama Acquisition](#panorama-acquisition)**
 
-[Image Capture](#image-capture)
+&nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)
+&nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)
 
 **[Stitching](#stitching)** 
 
@@ -29,6 +30,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Rendering and Publishing 360° Videos](#rendering-and-publishing-360-videos)*<br>
 
 **[Cube Mapping](#cube_mapping)**  
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)
+&nbsp;&nbsp;&nbsp;&nbsp;[Protocol for Pano2VR:](#protocol-for-pano2vr:)
 
 **[Manipulation](#manipulation)**  
 
