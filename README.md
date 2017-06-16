@@ -2,12 +2,12 @@
 
 ### Table of Contents
 
-**[Introduction](#introduction)**
-
 **[Panorama Acquisition](#panorama-acquisition)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)<br>
+
+**[Introduction](#introduction)**
 
 **[Stitching](#stitching)** 
 
