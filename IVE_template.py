@@ -46,6 +46,15 @@ def RestoreWindow():
 	win32gui.ShowWindow(viz.window.getHandle(),win32con.SW_RESTORE)
 
 
+#initialize the cover page
+botImage= viz.add('Bottom_ribbon.png')
+topImage= viz.add('Top_ribbon.png')
+midImage= viz.add('main_middle.png')
+
+midRibbon.texture(midImage)
+topRibbon.texture(topImage)
+botRibbon.texture(botImage)
+
 ###Playback procedure###
 
 def Loop():
