@@ -1,4 +1,12 @@
-﻿import sys
+﻿#filename        :IVE_VIDEO_Template
+#description     :This python file runs in World vizard to display 360 videos in a folder on Oculus headset
+#author          :Payam Tabrizian
+#date            :15.6.2017
+#usage           :World Vizard 
+#python_version  :2.7 
+#==============================================================================
+
+import sys
 import viz
 import viztask
 import os
@@ -9,9 +17,9 @@ import win32gui
 #import oculus_08 as oculus #for oculus DK2 with runtime .08
 
 VIDEO_PATH = os.path.join(os.getcwd(), "ENV")
-env_map_namelist = [video for video in os.listdir(VIDEO_PATH)]
+env_map_namelist = [video for video in os.listdir(VIDEO_PATH) if video.endswith('.MP4')]
 viz.go()
-
+print env_map_namelist 
 def MaximizeWindow():
   win32gui.ShowWindow(viz.window.getHandle(),win32con.SW_MAXIMIZE)
   #viz.window.setFullscreenRectangle([0,0,1920,1080])
