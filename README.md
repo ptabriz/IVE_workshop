@@ -9,7 +9,7 @@
 
 **[Introduction](#introduction)**
 
-**[Stitching](#stitching)** 
+**[Stitching](#stitching)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Stitching Methods](#stitching-methods)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Protocol for GigaPan Stitch](#protocol-for-gigapan-stitch)<br>
@@ -29,10 +29,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Editing a Reference Panorama for Video Stitching](#editing-a-reference-panorama-for-video-stitching)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Rendering and Publishing 360° Videos](#rendering-and-publishing-360-videos)*<br>
 
-**[Cube Mapping](#cube_mapping)**  
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
-
 **[Manipulation](#manipulation)**  
 &nbsp;&nbsp;&nbsp;&nbsp;[Methods of image manipulation for IVE using Adobe Photoshop CS](#method-of-image-manipulation-for-ive-using-adobe-photoshop-cs)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Basics](#basics)*<br>
@@ -41,99 +37,91 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Trees](#adding-trees)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Other Decorations (People, Shrubs, and Benches)](#adding-other-decorations-people-shrubs-and-benches)*<br>
 
+**[Cube Mapping](#cube_mapping)**  
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Protocol For Pano2VR](#protocol-for-pano2vr)<br>
 
 ## Panorama Acquisition
 
 ### Physical Setup
 
-* Equipment to pack
-1)	Tripod and carrying case.
-2)	GigaPan EPIC Pro, connecting cable, and backpack. Make sure the battery in the GigaPan and the extra battery are charged
-3)	Canon DSLR and backpack. Pack an extra SD card and make sure the battery in the camera and the backup battery are full.
-
+#### Equipment to pack
+* Tripod and carrying case.
+*	GigaPan EPIC Pro, connecting cable, and backpack. Make sure the battery in the GigaPan and the extra battery are charged
+* Canon DSLR and backpack. Pack an extra SD card and make sure the battery in the camera and the backup battery are full.
 * Gigapan Epic Pro Parts
 
-1)	EPIC Pro Body:
+EPIC Pro Body:
+![](/images/Equipment/proparts.jpg)<br><br>
+* Camera Rail
+* Rail Adjustment Knob
+* Camera Mounting Platform
+* Camera Mounting Plate
+* Camera Mounting Plate Lever
+* Navigation panel
+* Tripod Mount
+* Battery Chamber
 
-Camera Rail 
+Navigation Panel:
+![](/images/Equipment/epicpro-panel.jpeg)<br><br>
+* LCD Display
+* Cancel Button
+* Power/OK Button
+* Trigger cable port
+* Remote trigger port
+* Battery port
 
-Rail Adjustment Knob 
+### Setup the Gigapan Epic Pro
+* Set up the tripod.
+* Unpack the Epic Pro.
+*	Slide the Epic Pro into the tripod’s mount and wait for the click to ensure that it’s all the way in.
+*	Tighten the screw on the right side of the tripod to lock the Epic Pro in.
+*	Use the bubble level to center and level the EPIC Pro. Adjust the tripod legs and mount.
+*	Press and hold the power button on the Epic Pro until it powers on.
+*	Press the down button until you can highlight the Move Camera option, press OK.
+*	Hold the down button until the camera rail is level or angled up slightly.
+*	Rotate the locking pin to the unlocked position (parallel with the camera rail).
+*	Place the camera in the mount and rotate the locking pin to the locked position.
+*	Make sure the small silver pin is also locked.
+*	Connect the cable between the camera and the Epic Pro.
 
-Camera Mounting Platform 
-
-Camera Mounting Plate 
-
-Camera Mounting Plate Lever 
-
-Navigation panel 
-
-Tripod Mount 
-
-Battery Chamber 
-
-2)	Navigation Panel:
-
-LCD Display
-
-Cancel Button
-
-Power/OK Button
-
-Trigger cable port 
-
-Remote trigger port 
-
-Battery port
-
-* Setup the Gigapan Epic Pro
-1)	Set up the tripod.
-2)	Unpack the Epic Pro.
-3)	Slide the Epic Pro into the tripod’s mount and wait for the click to ensure that it’s all the way in.
-4)	Tighten the screw on the right side of the tripod to lock the Epic Pro in.
-5)	Use the bubble level to center and level the EPIC Pro. Adjust the tripod legs and mount.
-6)	Press and hold the power button on the Epic Pro until it powers on.
-7)	Press the down button until you can highlight the Move Camera option, press OK.
-8)	Hold the down button until the camera rail is level or angled up slightly.
-9)	Rotate the locking pin to the unlocked position (parallel with the camera rail).
-10)	Place the camera in the mount and rotate the locking pin to the locked position.
-11)	Make sure the small silver pin is also locked.
-12)	Connect the cable between the camera and the Epic Pro.
-
-* Setup your camera
- * Make sure the Epic Pro is on.
- * Scroll down and highlight Camera Setup, select OK.
- * Select Set.
- * Align the horizon with the top of the camera screen (using the viewfinder) at the prompt.
-Align the horizon with the bottom of the camera screen (again with the viewfinder) at the next prompt.
-The camera Field of View (FOV) should be around 40°.
-Power on the camera.
-Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
-9)	Ensure that the stabilizer is ON. This setting is on the left side of the lens.
-10)	Ensure that the auto-focus is ON. This setting is also on the left side of the lens, just above the stabilizer switch.
-11)	Ensure that the zoom is locked in all the way. The lock is D-shaped and is located on the right side of the lens.
-12)	To set the correct exposure settings, press the menu button on the back of the camera and scroll to the second camera settings box (red box). Scroll down to the White balance setting and select either Daylight, Shade, or Cloudy according to the current conditions. Select SET. Press the MENU button again to exit out of the menu screen.
+### Setup your camera
+![](/images/Equipment/fieldofview.jpg)<br><br>
+* Make sure the Epic Pro is on.
+* Scroll down and highlight Camera Setup, select OK.
+* Select Set.
+* Align the horizon with the top of the camera screen (using the viewfinder) at the prompt.
+* Align the horizon with the bottom of the camera screen (again with the viewfinder) at the next prompt.
+* The camera Field of View (FOV) should be around 40°.
+* Power on the camera.
+* Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
+* Ensure that the stabilizer is ON. This setting is on the left side of the lens.
+* Ensure that the auto-focus is ON. This setting is also on the left side of the lens, just above the stabilizer switch.
+* Ensure that the zoom is locked in all the way. The lock is D-shaped and is located on the right side of the lens.
+* To set the correct exposure settings, press the menu button on the back of the camera and scroll to the second camera settings box (red box). Scroll down to the White balance setting and select either Daylight, Shade, or Cloudy according to the current conditions. Select SET. Press the MENU button again to exit out of the menu screen.
 
 ###	Image Capture
 
-1)	Take a picture of your hand or something noticeable to indicate the beginning of a new panorama.
-2)	On the Epic Pro display, scroll down and highlight 360 Panorama.
-3)	When prompted to Set camera’s zoom, select OK.
-4)	When prompted to move the camera to the top of the image, use the Epic Pro controls to move the camera to the top of the panorama. This is about 60° on the wheels on either side of the Epic Pro’s arms. Press OK.
-5)	Next, Use the Epic Pro controls to move the camera to the bottom of the panorama. This is about -60°. Press OK.
-6)	When prompted to Show panorama, select NO.
-7)	When prompted to Start panorama, select OK.
-8)	It should take about 40 to 54 photos.
-9)	Ensure that the camera takes EVERY photo as the Epic Pro pans it around. If it skips one, then one of the camera’s settings are off and you’ll need to start over.
-10)	Finally, once the camera has taken all of the photos, take another picture of your hand or something noticeable to indicate the end of the panorama.
+* Take a picture of your hand or something noticeable to indicate the beginning of a new panorama.
+* On the Epic Pro display, scroll down and highlight 360 Panorama.
+* When prompted to Set camera’s zoom, select OK.
+* When prompted to move the camera to the top of the image, use the Epic Pro controls to move the camera to the top of the panorama. This is about 60° on the wheels on either side of the Epic Pro’s arms. Press OK.
+* Next, Use the Epic Pro controls to move the camera to the bottom of the panorama. This is about -60°. Press OK.
+* When prompted to Show panorama, select NO.
+* When prompted to Start panorama, select OK.
+* It should take about 40 to 54 photos.
+* Ensure that the camera takes EVERY photo as the Epic Pro pans it around. If it skips one, then one of the camera’s settings are off and you’ll need to start over.
+* Finally, once the camera has taken all of the photos, take another picture of your hand or something noticeable to indicate the end of the panorama.
 
 
 
 
-## Introduction 
+## Introduction
 
-This section deals with different applications in stitching images and videos as well as methods to manipulate stitched image in order to get desired environment for VR. 
- 
-## Stitching 
+This section deals with different applications in stitching images and videos as well as methods to manipulate stitched image in order to get desired environment for VR.
+
+## Stitching
 
 ### Stitching Methods
 
@@ -142,8 +130,8 @@ Stitching means taking all captured photos and arranging them to be a single pho
 ### Protocol for GigaPan Stitch
 
 #### Getting Started
-* The camera mounted on the GigaPan EPIC Pro robot captures gigapixel panoramas and such captured images can number in the hundreds or even thousands. The GigaPan Stitch.Efx software manages images in the correct rows and columns and then stitches those images to create a panorama. 
-* For more information about GigaPan Stitch, click [*here.*] (http://www.omegabrandess.com/Gigapan) 
+* The camera mounted on the GigaPan EPIC Pro robot captures gigapixel panoramas and such captured images can number in the hundreds or even thousands. The GigaPan Stitch.Efx software manages images in the correct rows and columns and then stitches those images to create a panorama.
+* For more information about GigaPan Stitch, click [*here.*] (http://www.omegabrandess.com/Gigapan)
 * Documentations are available [*here*] (http://gigapan.com/cms/manuals/epic-pro-stitching-and-uploading-panoramas) and [*here.*] (http://www.gigapan.com/cms/manual/pdf/stitch-efx-upload-manual.pdf)
 
 #### Stitching Images Using GigaPan Stitch.Efx
@@ -234,7 +222,7 @@ In the case of this example, Output size is minimized to 10% of full size panora
 ![Markdown Here logo](/images/3-b-iii/autopano_21.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The Panorama Editor window displays a mesh that demonstrates the links between images and their quality. The mesh enables selecting images and links. The Control points editing area has 2 windows where two selected images from the list can be observed and edited with the available tools.<br><br>
 ![Markdown Here logo](/images/3-b-iii/autopano_22.jpg)<br><br>
-* Edit panorama as needed. For editing, please refer the Autopano Giga Documentation and tutorial videos, to which you can find web links in step 1 above. 
+* Edit panorama as needed. For editing, please refer the Autopano Giga Documentation and tutorial videos, to which you can find web links in step 1 above.
 
 #### Saving Your Panorama
 * There are two ways to save your project:<br>
@@ -246,7 +234,7 @@ In the case of this example, Output size is minimized to 10% of full size panora
 &nbsp;&nbsp;&nbsp;&nbsp; b. Enter your Autopano(.pano) file name in **File name** space and click **Save**.
 
 #### Common stitching problem using Autopano Giga
-* Stitched panoramas potentially have black spots where stitching was not successful, as shown in Example image 1. This is caused by either/both insufficient overlap images and/or control points for stitching images (see Example image 2). This black spot oftentimes appears on the sky as shown below image.  It is due to not having enough control points for stitching.  In this case, you will need to modify image using photo editing software such as Photoshop.  Note that it seems this problem does not apply for using GigaPan Stitch.Efx. GigaPan stitich.Efx applies a Mercator projection instead of a spherical/Equirectangular projection.<br><br> 
+* Stitched panoramas potentially have black spots where stitching was not successful, as shown in Example image 1. This is caused by either/both insufficient overlap images and/or control points for stitching images (see Example image 2). This black spot oftentimes appears on the sky as shown below image.  It is due to not having enough control points for stitching.  In this case, you will need to modify image using photo editing software such as Photoshop.  Note that it seems this problem does not apply for using GigaPan Stitch.Efx. GigaPan stitich.Efx applies a Mercator projection instead of a spherical/Equirectangular projection.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp; **Example image 1:** Black spots in the panorama.<br><br>
 ![Markdown Here logo](/images/3-b-iii/autopano_23.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp; **Example image 2:** No control points on the sky in panorama.<br><br>
@@ -265,7 +253,7 @@ In the case of this example, Output size is minimized to 10% of full size panora
 * Review Main Window
 
 #### Preparing and Synchronizing
-When shooting the video, try avoiding putting your interesting content outside the overlapping areas. There are two different ways for synchronization: Audio or Motion. For Audio synchronization make a **clap** or click the **clicker** when cameras are recording. For Motion synchronization turn the rig around its center, not too fast, while holding it with arms or tripod. You can import your videos in two different ways: manually or using the wizard import. Place all your associated videos in the same folder. 
+When shooting the video, try avoiding putting your interesting content outside the overlapping areas. There are two different ways for synchronization: Audio or Motion. For Audio synchronization make a **clap** or click the **clicker** when cameras are recording. For Motion synchronization turn the rig around its center, not too fast, while holding it with arms or tripod. You can import your videos in two different ways: manually or using the wizard import. Place all your associated videos in the same folder.
 * From the main menu select **File: Import videos**. Simultaneously select the six videos that you want them to be stitched. One other method is selecting and dragging your six videos in the Autopano video page, in the **Input videos** windows: **Drag’n’drop videos here**.<br><br>
 ![](/images/3-b-iv/autopano_v_01.png)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Now you can see all six videos in the **Input videos** window.<br><br>
@@ -327,47 +315,6 @@ When shooting the video, try avoiding putting your interesting content outside t
 * Now, you can move, zoom, and explore your 360° degree video in the Kolor Eyes program.<br><br>
 ![](/images/3-b-iv/autopano_v_28.png)<br><br>
 
-## Cube mapping
-**Cube Mapping and Cube Wrapping**
-First, we need to know what is equirectangular projection. This method projects lines of longitude to vertical lines and circles of latitude to horizontal lines. A standard world map is a good example of equirectangular projection which maps a sphere onto orthogonal coordinates. Cube mapping or cube map projection is another way of mapping that uses cube’s six faces as the map shape. In this method, each square side of the cube represents part of the projected environment. Cube maps are easy to project and their pixels are well-distributed.  
-
-**Protocol for Pano2VR:**
-**Getting Started**
-
-  Pano2VR is an application to convert spherical or cylindrical panoramic images into Adobe Flash 10, HTML5 (WebGL/iPhone/iPad), or QuickTime VR (QTVR) with feature such as customizable skins, multiresolution (gigapixel panoramas), hotspots and directional sound) --- Pano2VR
-  	More information about Pano2VR at: 
-http://gardengnomesoftware.com/pano2vr.php
-  Documentations are available at: 
-    http://gardengnomesoftware.com/wiki/Main_Page
-  Watch tutorials at:
-    http://gardengnomesoftware.com/tutorial.php
-
-**Creating six cube images from equirectangular panorama:**
-
- 1. Open Pano2VR 4.5.1 – 64bit program.
- 2. Click Select Input.<br><br>
-![](/images/3-c/3-c-i/pano2vr_01.jpg)<br><br>
-3. In the Input window, select input eye to Equirectangular, then click Open. Browse your Equirectangular panorama and click OK.<br><br>
-![](/images/3-c/3-c-i/pano2vr_02.jpg)<br><br>
-4.	Click Convert Input.<br><br>
-![](/images/3-c/3-c-i/pano2vr_03.jpg)<br><br>
-5.	In the Convert Panorama dialog box, adjust the Format settings as shown below. The Cube Face Size setting can be varied depending upon your method of display. For showing images via the Oculus HMD (DK1 and DK2), 1024 should be sufficient. As a rule, it is generally better to use a smaller size. Click Select button to select output file location and output file name. Finally, click Convert button.<br><br>
-![](/images/3-c/3-c-i/pano2vr_04.png)<br><br>
-6.	Find your six cube face images.<br><br>
-![](/images/3-c/3-c-i/pano2vr_05.png)<br><br>
-
-Optional steps if going on to create VEs for viewing in the Oculus HMD:
-
-You will have to rename the image files for them to be read by the Python code. Rename the files following the pattern below.<br><br>
-![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
-Now you can place the 6 cube face image files into a new folder, name the folder: " ENV ". Be sure to place the ENV folder in the same location as IVE_template.py
-
-Example file locations<br><br>
-![](/images/3-c/3-c-i/Vizard_01.png)<br><br>
-
-
-https://github.com/ptabriz/IVE_workshop/blob/master/IVE_template.py
-
 ## Manipulation
 
 In this section, we learn how to manipulate objects to the equirectangular image.
@@ -382,13 +329,13 @@ In this section, we learn how to manipulate objects to the equirectangular image
 ![](/images/Manipulation/Figure_2.jpg)<br><br>
 
 #### Adding a Building
-* **Open** the [*buildings file*] (buildings.psd), bring in the Dome layer into the scene, and make sure that the dome is ordered behind all layers. 
+* **Open** the [*buildings file*] (buildings.psd), bring in the Dome layer into the scene, and make sure that the dome is ordered behind all layers.
 * Check if the dome is on the left side between the bricked and glass façade buildings.<br><br>
 ![](/images/Manipulation/Figure_3.jpg)<br><br>
 * **Turn on** the reference grid, and **select** the dome layer.  
 * **Transform** the dome using warp to align the building’s horizontal elements with the corresponding grid line. Make Sky layer visible.<br><br>
 ![](/images/Manipulation/Figure_4.jpg)<br><br>
-* In the next step, we will use a [*plan*] (/images/Manipulation/plan.jpg)  related to tentative landscape design for the plaza to use as a reference for manipulation. For drawing the plan information in the equirectangular image, we first need to locate the approximate location of each greenery patch based on the corresponding pavements and/or street grids. Then, we should transform the geometry of a realistic representation of desired patches by following the extension lines of the reference grid. Note that the grid overlaid on the plan only projects the approximate shape of patches and the location of each feature needs to be determined by referring to the plan. 
+* In the next step, we will use a [*plan*] (/images/Manipulation/plan.jpg)  related to tentative landscape design for the plaza to use as a reference for manipulation. For drawing the plan information in the equirectangular image, we first need to locate the approximate location of each greenery patch based on the corresponding pavements and/or street grids. Then, we should transform the geometry of a realistic representation of desired patches by following the extension lines of the reference grid. Note that the grid overlaid on the plan only projects the approximate shape of patches and the location of each feature needs to be determined by referring to the plan.
 
 #### Adding Greenery
 * Expand the **_Grass_** group, find the layer **_Sample_Grass_** and make the layer visible. Make sure that the reference grid is still visible and is on top of all layers.  
@@ -406,8 +353,47 @@ In this section, we learn how to manipulate objects to the equirectangular image
 * The final product could be similar to this [*image.*] (/images/Manipulation/Figure_10.jpg)
 
 #### Adding Other Decorations (People, shrubs, and benches)
-* Similar workflow applies for people, shrubs, and the furniture. Some cutouts of people (people_1, 2, 3), shrubs (Shrub_1, 2) and sample benches (Bench_C and Bench K) are included in the Photoshop file.  You will note that the benches don’t align with the reference grid, unless they are placed in specific locations that exactly match their orientation. This limitation applies to most of the object that their perceived geometry changes based on their orientation. A sample of the finished manipulation is shown [*here.*] (/images/Manipulation/Figure_11.jpg) 
+* Similar workflow applies for people, shrubs, and the furniture. Some cutouts of people (people_1, 2, 3), shrubs (Shrub_1, 2) and sample benches (Bench_C and Bench K) are included in the Photoshop file.  You will note that the benches don’t align with the reference grid, unless they are placed in specific locations that exactly match their orientation. This limitation applies to most of the object that their perceived geometry changes based on their orientation. A sample of the finished manipulation is shown [*here.*] (/images/Manipulation/Figure_11.jpg)
+
+# Cube mapping
+**Cube Mapping and Cube Wrapping**
+First, we need to know what is equirectangular projection. This method projects lines of longitude to vertical lines and circles of latitude to horizontal lines. A standard world map is a good example of equirectangular projection which maps a sphere onto orthogonal coordinates. Cube mapping or cube map projection is another way of mapping that uses cube’s six faces as the map shape. In this method, each square side of the cube represents part of the projected environment. Cube maps are easy to project and their pixels are well-distributed.  
+
+**Protocol for Pano2VR:**
+**Getting Started**
+
+  Pano2VR is an application to convert spherical or cylindrical panoramic images into Adobe Flash 10, HTML5 (WebGL/iPhone/iPad), or QuickTime VR (QTVR) with feature such as customizable skins, multiresolution (gigapixel panoramas), hotspots and directional sound) --- Pano2VR
+  	More information about Pano2VR at:
+http://gardengnomesoftware.com/pano2vr.php
+  Documentations are available at:
+    http://gardengnomesoftware.com/wiki/Main_Page
+  Watch tutorials at:
+    http://gardengnomesoftware.com/tutorial.php
+
+**Creating six cube images from equirectangular panorama:**
+
+* Open Pano2VR 4.5.1 – 64bit program.
+* Click Select Input.<br><br>
+![](/images/3-c/3-c-i/pano2vr_01.jpg)<br><br>
+* In the Input window, select input eye to Equirectangular, then click Open. Browse your Equirectangular panorama and click OK.<br><br>
+![](/images/3-c/3-c-i/pano2vr_02.jpg)<br><br>
+* Click Convert Input.<br><br>
+![](/images/3-c/3-c-i/pano2vr_03.jpg)<br><br>
+* In the Convert Panorama dialog box, adjust the Format settings as shown below. The Cube Face Size setting can be varied depending upon your method of display. For showing images via the Oculus HMD (DK1 and DK2), 1024 should be sufficient. As a rule, it is generally better to use a smaller size. Click Select button to select output file location and output file name. Finally, click Convert button.<br><br>
+![](/images/3-c/3-c-i/pano2vr_04.png)<br><br>
+* Find your six cube face images.<br><br>
+![](/images/3-c/3-c-i/pano2vr_05.png)<br><br>
+
+If going on to create VEs for viewing in the Oculus HMD:
+
+* You will have to rename the image files for them to be read by the Python code. Rename the files following the pattern below.<br><br>
+![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
+* Now you can place the 6 cube face image files into a new folder, name the folder: " ENV ". Be sure to place the ENV folder in the same location as IVE_template.py
+
+* Once image files are in ENV folder open the python script and run
+
+Example file locations<br><br>
+![](/images/3-c/3-c-i/Vizard_01.png)<br><br>
 
 
-
-
+Python code found in download: https://github.com/ptabriz/IVE_workshop/blob/master/IVE_template.py
