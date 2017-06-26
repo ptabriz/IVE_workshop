@@ -195,7 +195,7 @@ Stitching means taking all captured photos and arranging them to be a single pho
 * The Gigapan import module enables importing shots created with a Gigapan motorized panoramic head. On the **General** tab, go to the **Images** section and click the **…** button.<br><br>
 ![Markdown Here logo](/images/3-b-iii/autopano_05.jpg)<br><br>
 * Browse the file where your images captured by GigaPan EPIC Pro and select one or more images for creating a panorama, and then click **Open**.<br><br>
-![Markdown Here logo](/IVE_workshop/blob/master/images/3-b-iii/autopano_06.jpg)<br><br>
+![Markdown Here logo](images/3-b-iii/autopano_06.jpg)<br><br>
 * Autopano Giga normally adjusts the images’ rows and columns automatically. However, if for any reason the program does not adjust the rows and columns, you will need to adjust it manually. The number of rows and columns are associated with each other. The correct number of rows and columns can be found using GigaPan Stitch.Efx. The **Preview** section in the General tab settings enables visualization of the shooting. The preview alters according to the number of rows and columns. Reviews the final image to define imported images are placed in appropriate rows and columns.<br><br>
 ![Markdown Here logo](/images/3-b-iii/autopano_07.jpg)<br><br>
 * On the import module, click on the **Shoot layout** tab. This tab enables the selecting the arrangement corresponding to the taken photos. Normally the Column (default) option is the most suitable option for images. Otherwise, make any necessary changes for your panorama. **DO NOT** click the **Finish** button yet.<br><br>
