@@ -100,15 +100,14 @@ Battery port
 12)	Connect the cable between the camera and the Epic Pro.
 
 * Setup your camera
-
-1)	Make sure the Epic Pro is on.
-2)	Scroll down and highlight Camera Setup, select OK.
-3)	Select Set.
-4)	Align the horizon with the top of the camera screen (using the viewfinder) at the prompt.
-5)	Align the horizon with the bottom of the camera screen (again with the viewfinder) at the next prompt.
-6)	The camera Field of View (FOV) should be around 40°.
-7)	Power on the camera.
-8)	Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
+ * Make sure the Epic Pro is on.
+ * Scroll down and highlight Camera Setup, select OK.
+ * Select Set.
+ * Align the horizon with the top of the camera screen (using the viewfinder) at the prompt.
+Align the horizon with the bottom of the camera screen (again with the viewfinder) at the next prompt.
+The camera Field of View (FOV) should be around 40°.
+Power on the camera.
+Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
 9)	Ensure that the stabilizer is ON. This setting is on the left side of the lens.
 10)	Ensure that the auto-focus is ON. This setting is also on the left side of the lens, just above the stabilizer switch.
 11)	Ensure that the zoom is locked in all the way. The lock is D-shaped and is located on the right side of the lens.
