@@ -41,19 +41,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Trees](#adding-trees)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Other Decorations (People, Shrubs, and Benches)](#adding-other-decorations-people-shrubs-and-benches)*<br>
 
+**[Introduction to Cube Mapping and Cube Wrapping](#introduction-to-cube-mapping-and-cube-wrapping)**
+
 **[Cube Mapping](#cube_mapping)**  
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Protocol For Pano2VR](#protocol-for-pano2vr)<br>
 
 ## Introduction To Image Acquisition
-
 This section will explain how to acquire images using Gigapan Epic Pro Robot that will later be stitched to create a panorama.
-
-## Image Acquisition
-
 ### Physical Setup
-
 #### Equipment to pack
 * Tripod and carrying case.
 *	GigaPan EPIC Pro, connecting cable, and backpack. Make sure the battery in the GigaPan and the extra battery are charged
