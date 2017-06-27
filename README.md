@@ -1,11 +1,15 @@
-﻿# 3. Preparing IVE Scenes
-
 ### Table of Contents
+
+# 1. Introduction
+
+# 2. Image Acquisition
 
 **[Introduction To Image Acquisition](#introduction-to-image-acquisition)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)<br>
+
+# 3. Preparing IVE Scenes
 
 **[Introduction To Stitching](#introduction-to-stitching)**
 
@@ -38,6 +42,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Greenery](#adding-greenery)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Trees](#adding-trees)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Adding Other Decorations (People, Shrubs, and Benches)](#adding-other-decorations-people-shrubs-and-benches)*<br>
+
+# 4. Developing IVE Scenes
 
 **[Introduction to Cube Mapping and Cube Wrapping](#introduction-to-cube-mapping-and-cube-wrapping)**
 
