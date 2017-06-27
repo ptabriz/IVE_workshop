@@ -2,12 +2,14 @@
 
 ### Table of Contents
 
-**[Panorama Acquisition](#panorama-acquisition)**
+**[Introduction To Image Acquisition](#introduction-to-image-acquisition)**
+
+**[Image Acquisition](#image-acquisition)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)<br>
 
-**[Introduction](#introduction)**
+**[Introduction To Stitching](#introduction-to-stitching)**
 
 **[Stitching](#stitching)**
 
@@ -29,6 +31,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Editing a Reference Panorama for Video Stitching](#editing-a-reference-panorama-for-video-stitching)*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Rendering and Publishing 360° Videos](#rendering-and-publishing-360-videos)*<br>
 
+**[Introduction To Manipulation](#introduction-to-manipulation)**
+
 **[Manipulation](#manipulation)**  
 &nbsp;&nbsp;&nbsp;&nbsp;[Methods of image manipulation for IVE using Adobe Photoshop CS](#method-of-image-manipulation-for-ive-using-adobe-photoshop-cs)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[Basics](#basics)*<br>
@@ -42,7 +46,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Protocol For Pano2VR](#protocol-for-pano2vr)<br>
 
-## Panorama Acquisition
+## Introduction To Image Acquisition
+
+This section will explain how to acquire images using Gigapan Epic Pro Robot that will later be stitched to create a panorama.
+
+## Image Acquisition
 
 ### Physical Setup
 
@@ -117,7 +125,7 @@ Navigation Panel:
 
 
 
-## Introduction
+## Introduction To Stitching
 
 This section deals with different applications in stitching images and videos as well as methods to manipulate stitched image in order to get desired environment for VR.
 
@@ -140,7 +148,7 @@ Stitching means taking all captured photos and arranging them to be a single pho
 ![Markdown Here logo](/images/3-b-ii/gigapan_stitch_01.jpg)<br><br>
 * Adjust **Number of Rows** for stitching images and click **Save** selection and Stitch button.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The image below has not selected the appropriate **Number of Rows**.<br><br>
-![Markdown Here logo](https://github.com/ptabriz/IVE_workshop/blob/master/images/3-b-ii/gigapan_stitch_02.jpg)<br><br>
+![Markdown Here logo](/images/3-b-ii/gigapan_stitch_02.jpg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;The appropriate **Number of Rows** is selected.<br><br>
 ![Markdown Here logo](/images/3-b-ii/gigapan_stitch_03.jpg)<br><br>
 * Type the file name and click *Save* button.<br><br>
@@ -315,9 +323,13 @@ When shooting the video, try avoiding putting your interesting content outside t
 * Now, you can move, zoom, and explore your 360° degree video in the Kolor Eyes program.<br><br>
 ![](/images/3-b-iv/autopano_v_28.png)<br><br>
 
+## Introduction To Manipulation
+
+If the equirectangular image is flawed and needs to be edited or certain visuals need to be added, the image can be manipulated.
+
 ## Manipulation
 
-In this section, we learn how to manipulate objects to the equirectangular image.
+In this section, we learn how to manipulate objects in the equirectangular image.
 
 ### Methods of image manipulation for IVE using Adobe Photoshop CS
 
@@ -355,9 +367,11 @@ In this section, we learn how to manipulate objects to the equirectangular image
 #### Adding Other Decorations (People, shrubs, and benches)
 * Similar workflow applies for people, shrubs, and the furniture. Some cutouts of people (people_1, 2, 3), shrubs (Shrub_1, 2) and sample benches (Bench_C and Bench K) are included in the Photoshop file.  You will note that the benches don’t align with the reference grid, unless they are placed in specific locations that exactly match their orientation. This limitation applies to most of the object that their perceived geometry changes based on their orientation. A sample of the finished manipulation is shown [*here.*] (/images/Manipulation/Figure_11.jpg)
 
-# Cube mapping
-**Cube Mapping and Cube Wrapping**
-First, we need to know what is equirectangular projection. This method projects lines of longitude to vertical lines and circles of latitude to horizontal lines. A standard world map is a good example of equirectangular projection which maps a sphere onto orthogonal coordinates. Cube mapping or cube map projection is another way of mapping that uses cube’s six faces as the map shape. In this method, each square side of the cube represents part of the projected environment. Cube maps are easy to project and their pixels are well-distributed.  
+## Introduction to Cube Mapping and Cube Wrapping
+
+First, we need to know what equirectangular projection is. This method projects lines of longitude to vertical lines and circles of latitude to horizontal lines. A standard world map is a good example of equirectangular projection which maps a sphere onto orthogonal coordinates. Cube mapping or cube map projection is another way of mapping that uses cube’s six faces as the map shape. In this method, each square side of the cube represents part of the projected environment. Cube maps are easy to project and their pixels are well-distributed.  
+
+## Cube mapping
 
 **Protocol for Pano2VR:**
 **Getting Started**
@@ -394,6 +408,3 @@ If going on to create VEs for viewing in the Oculus HMD:
 
 Example file locations<br><br>
 ![](/images/3-c/3-c-i/Vizard_01.png)<br><br>
-
-
-Python code found in download: https://github.com/ptabriz/IVE_workshop/blob/master/IVE_template.py
