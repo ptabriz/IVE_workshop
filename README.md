@@ -4,8 +4,6 @@
 
 **[Introduction To Image Acquisition](#introduction-to-image-acquisition)**
 
-**[Image Acquisition](#image-acquisition)**
-
 &nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)<br>
 
