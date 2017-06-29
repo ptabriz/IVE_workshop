@@ -106,7 +106,7 @@ Navigation Panel:
 * Power on the camera.
 * Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
 * Ensure that the stabilizer is ON. This setting is on the left side of the lens.
-* Ensure that the auto-focus is ON. This setting is also on the left side of the lens, just above the stabilizer switch.
+* Ensure that the auto-focus is OFF. This setting is also on the left side of the lens, just above the stabilizer switch.
 * Ensure that the zoom is locked in all the way. The lock is D-shaped and is located on the right side of the lens.
 * To set the correct exposure settings, press the menu button on the back of the camera and scroll to the second camera settings box (red box). Scroll down to the White balance setting and select either Daylight, Shade, or Cloudy according to the current conditions. Select SET. Press the MENU button again to exit out of the menu screen.
 
