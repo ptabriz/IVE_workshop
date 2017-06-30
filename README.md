@@ -1,4 +1,6 @@
-### Table of Contents
+# Table of Contents
+
+___
 
 # 1. Introduction
 
@@ -52,6 +54,8 @@
 
 **[Vizard VR](#vizard-vr)** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Operating and Loading IVE environments into WorldViz](#operating-and-loading-ive-environments-into-worldviz)<br>
+
+___
 
 ## Image Acquisition using GigaPan Epic Pro Robot
 This section will explain how to acquire images using Gigapan Epic Pro Robot that will later be stitched to create a panorama.
