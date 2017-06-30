@@ -376,7 +376,7 @@ First, we need to know what equirectangular projection is. This method projects 
 
 ## Cube mapping and Cube Wrapping
 
-###Protocol for Pano2VR:
+### Protocol for Pano2VR:
 **Getting Started**
 
   Pano2VR is an application to convert spherical or cylindrical panoramic images into Adobe Flash 10, HTML5 (WebGL/iPhone/iPad), or QuickTime VR (QTVR) with feature such as customizable skins, multiresolution (gigapixel panoramas), hotspots and directional sound) --- Pano2VR
@@ -403,9 +403,9 @@ http://gardengnomesoftware.com/pano2vr.php
 
 If going on to create VEs for viewing in the Oculus HMD:
 
-##Vizard VR
+## Vizard VR
 
-###Operating and Loading IVE environments into WorldViz
+### Operating and Loading IVE environments into WorldViz
 
 * You will have to rename the image files for them to be read by the Python code. Rename the files following the pattern below.<br><br>
 ![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
