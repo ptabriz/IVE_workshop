@@ -4,7 +4,7 @@
 
 # 2. Image Acquisition
 
-**[Introduction To Image Acquisition](#introduction-to-image-acquisition)**
+**[Image Acquisition using GigaPan Epic Pro Robot](#image-acquisition-using-gigapan-epic-pro-robot)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Physical Setup](#physical-setup)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Image Capture](#image-capture)<br>
@@ -47,19 +47,21 @@
 
 **[Introduction to Cube Mapping and Cube Wrapping](#introduction-to-cube-mapping-and-cube-wrapping)**
 
-**[Cube Mapping](#cube_mapping)**  
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Cube Mapping and Cube Wrapping](#cube-mapping-and-cube-wrapping)<br>
+**[Cube Mapping And Cube Wrapping](#cube-mapping-and-cube-wrapping)**  
 &nbsp;&nbsp;&nbsp;&nbsp;[Protocol For Pano2VR](#protocol-for-pano2vr)<br>
 
-## Introduction To Image Acquisition
+**[Vizard VR](#vizard-vr)** <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Operating and Loading IVE environments into WorldViz](#operating-and-loading-ive-environments-into-worldviz)<br>
+
+## Image Acquisition using GigaPan Epic Pro Robot
 This section will explain how to acquire images using Gigapan Epic Pro Robot that will later be stitched to create a panorama.
 ### Physical Setup
 #### Equipment to pack
 * Tripod and carrying case.
 *	GigaPan EPIC Pro, connecting cable, and backpack. Make sure the battery in the GigaPan and the extra battery are charged
 * Canon DSLR and backpack. Pack an extra SD card and make sure the battery in the camera and the backup battery are full.
-* Gigapan Epic Pro Parts
+
+#### Gigapan Epic Pro Parts
 
 EPIC Pro Body:
 ![](/images/Equipment/proparts.jpg)<br><br>
@@ -81,7 +83,7 @@ Navigation Panel:
 * Remote trigger port
 * Battery port
 
-### Setup the Gigapan Epic Pro
+#### Setup the Gigapan Epic Pro
 * Set up the tripod.
 * Unpack the Epic Pro.
 *	Slide the Epic Pro into the tripod’s mount and wait for the click to ensure that it’s all the way in.
@@ -95,7 +97,7 @@ Navigation Panel:
 *	Make sure the small silver pin is also locked.
 *	Connect the cable between the camera and the Epic Pro.
 
-### Setup your camera
+#### Setup your camera
 ![](/images/Equipment/fieldofview.jpg)<br><br>
 * Make sure the Epic Pro is on.
 * Scroll down and highlight Camera Setup, select OK.
@@ -106,7 +108,7 @@ Navigation Panel:
 * Power on the camera.
 * Set the click-wheel setting to the P (Program AE) setting. This is one click above the Full Automatic Mode (green box) setting.
 * Ensure that the stabilizer is ON. This setting is on the left side of the lens.
-* Ensure that the auto-focus is ON. This setting is also on the left side of the lens, just above the stabilizer switch.
+* Ensure that the auto-focus is OFF. This setting is also on the left side of the lens, just above the stabilizer switch.
 * Ensure that the zoom is locked in all the way. The lock is D-shaped and is located on the right side of the lens.
 * To set the correct exposure settings, press the menu button on the back of the camera and scroll to the second camera settings box (red box). Scroll down to the White balance setting and select either Daylight, Shade, or Cloudy according to the current conditions. Select SET. Press the MENU button again to exit out of the menu screen.
 
@@ -372,9 +374,9 @@ In this section, we learn how to manipulate objects in the equirectangular image
 
 First, we need to know what equirectangular projection is. This method projects lines of longitude to vertical lines and circles of latitude to horizontal lines. A standard world map is a good example of equirectangular projection which maps a sphere onto orthogonal coordinates. Cube mapping or cube map projection is another way of mapping that uses cube’s six faces as the map shape. In this method, each square side of the cube represents part of the projected environment. Cube maps are easy to project and their pixels are well-distributed.  
 
-## Cube mapping
+## Cube mapping and Cube Wrapping
 
-**Protocol for Pano2VR:**
+###Protocol for Pano2VR:
 **Getting Started**
 
   Pano2VR is an application to convert spherical or cylindrical panoramic images into Adobe Flash 10, HTML5 (WebGL/iPhone/iPad), or QuickTime VR (QTVR) with feature such as customizable skins, multiresolution (gigapixel panoramas), hotspots and directional sound) --- Pano2VR
@@ -401,11 +403,15 @@ http://gardengnomesoftware.com/pano2vr.php
 
 If going on to create VEs for viewing in the Oculus HMD:
 
+##Vizard VR
+
+###Operating and Loading IVE environments into WorldViz
+
 * You will have to rename the image files for them to be read by the Python code. Rename the files following the pattern below.<br><br>
 ![](/images/3-c/3-c-i/pano2vr_07.PNG)<br><br>
 * Now you can place the 6 cube face image files into a new folder, name the folder: " ENV ". Be sure to place the ENV folder in the same location as IVE_template.py
 
-* Once image files are in ENV folder open the python script and run
+* Once image files are in ENV folder open the python script with Vizard and run.
 
 Example file locations<br><br>
 ![](/images/3-c/3-c-i/Vizard_01.png)<br><br>
